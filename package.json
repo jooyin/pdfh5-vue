@@ -30,7 +30,12 @@
         "url": "https://github.com/gjTool/pdfh5/issues"
     },
     "bundleDependencies": false,
-    "dependencies": {},
+    "dependencies": {
+        "@thednp/dommatrix": "^2.0.6",
+        "web-streams-polyfill": "^3.2.1",
+        "canvas": "^2.11.2",
+        "path2d-polyfill": "^2.0.1"
+    },
     "deprecated": false,
     "description": " JS plugin of preview PDF  for mobile. web/h5/移动端PDF预览手势缩放插件",
     "devDependencies": {},
